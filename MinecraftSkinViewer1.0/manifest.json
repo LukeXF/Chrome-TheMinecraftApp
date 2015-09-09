@@ -1,0 +1,25 @@
+{
+   "manifest_version": 2,
+
+   "name": "Minecraft Skin Viewer",
+   "version": "1.0",
+   "description": "Minecraft Skin Viewer - A unique extension to quickly view skins.",
+   "short_name": "MC Skin Viewer",
+   "author": "Luke Brown",
+
+   "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+   },
+
+   "permissions": [
+      "http://skin.luke.sx/"
+   ],
+
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html"
+   }
+
+}
